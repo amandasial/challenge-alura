@@ -25,7 +25,9 @@ function criptografar(palavra) {
 }
 
 // funcao para decriptografar uma palavra
+// fimesnailimeszaidober
 
+// f
 function decriptar(palavra) {
     let palavraOriginal = "";
     let contador = 0;
@@ -37,7 +39,7 @@ function decriptar(palavra) {
         } else if (palavra[contador] === "e" && palavra[contador + 1] === "n" && palavra[contador + 2] === "t" && palavra[contador + 3] === "e" && palavra[contador + 4] === "r") {
             palavraOriginal += "e";
             contador += 5;
-        } else if (palavra[contador] == "i" && palavra[contador + 1] === "n" && palavra[contador + 2] === "e" && palavra[contador + 3] === "s") {
+        } else if (palavra[contador] == "i" && palavra[contador + 1] === "m" && palavra[contador + 2] === "e" && palavra[contador + 3] === "s") {
             palavraOriginal += "i";
             contador += 4;
         } else if (palavra[contador] === "o" && palavra[contador + 1] === "b" && palavra[contador + 2] === "e" && palavra[contador + 3] === "r") {
