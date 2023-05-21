@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador texto - OracleOne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+<body>
+    <div class="container">
+        <div class="header-mensagem">
+            <header>
+                <img id="alura-logo" class="alura-logo" src="imagens/alura-logo.png" alt="alura-logo">
+            </header>
+
+            <section class="mensagem-criptografia">
+                <label hidden for="mensagem">Digite seu texto</label>
+                <textarea id="mensagem" rows="3" cols="3" placeholder="Digite seu texto"></textarea>
+                
+                <div class="botao-container">
+                    <div class="requisitos">
+                        <img src="imagens/exclamacao-botao.png">
+                        <span>Apenas letras minúsculas e sem acento.</span>
+                    </div>
+                    <div class="botao-criptografar-decriptograr">
+                        <button id="botao-criptografar" class="botao botao-azul">Criptografar</button>
+                        <button id="botao-decriptografar" class="botao botao-cinza">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="resultado" class="resultado" >
+            <div class="mensagem-nao-encontrada">
+                <img id="mensagem-vazia" src="imagens/mensagem-vazia.png">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <ul>
+            <li>Aluna: Amanda Cunha </li>
+            <li>
+                <a target="_blank" href="https://github.com/amandasial">
+                    <img src="imagens/github.svg" height="32" width="32">     
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="criptografia.js"></script>
+</body>
+</html>
